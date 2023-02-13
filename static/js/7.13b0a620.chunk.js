@@ -1,0 +1,2 @@
+(this["webpackJsonpojas-portfolio"]=this["webpackJsonpojas-portfolio"]||[]).push([[7],{16:function(o,t,s){"use strict";s.r(t);var i=s(0);s(1);t.default=function(){return Object(i.jsx)("div",{id:"home"})}}}]);
+//# sourceMappingURL=7.13b0a620.chunk.js.map
