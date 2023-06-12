@@ -1,14 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
 * {
   font-family: "Bree Serif", serif;
 }
+
 .quote {
   width: 80%;
   margin: auto;
 }
-.quote > img {
+
+.quote>img {
   margin: auto;
 }
+
 #home {
   width: 90%;
   margin: auto;
@@ -37,12 +41,14 @@
   font-family: "Bree Serif", serif;
   border: 0px solid green;
 }
+
 .img_txt_wrapper {
   display: flex;
   border: 0px solid black;
   align-items: center;
   justify-content: space-between;
 }
+
 #myName {
   margin-bottom: 7px;
   font-size: 50px;
@@ -51,6 +57,7 @@
   border: 0px solid blue;
   font-family: "Bree Serif", serif;
   white-space: nowrap;
+  color: white;
 }
 
 #title {
@@ -61,6 +68,7 @@
   font-family: "Bree Serif", serif;
   white-space: nowrap;
   border: 0px solid teal;
+  color: white;
 }
 
 @keyframes type {
@@ -103,13 +111,16 @@
     /* height: 380px; */
     margin: auto;
   }
+
   .quote {
     width: 80%;
     margin: auto;
   }
-  .quote > img {
+
+  .quote>img {
     margin: auto;
   }
+
   #title {
     font-size: 20px;
   }
@@ -124,20 +135,24 @@
     width: 90%;
     margin-top: 150px;
   }
+
   .img_txt_wrapper {
     margin: auto;
     margin-top: 20px;
     width: 80%;
     flex-direction: column;
   }
+
   #myDetailsDiv {
     width: 100%;
     margin: auto;
   }
+
   .quote {
     width: 80%;
     margin: auto;
   }
+
   #myName {
     margin-bottom: 10px;
     font-size: 32px;
@@ -159,6 +174,7 @@
     font-size: 18px;
   }
 }
+
 /* 
 @media screen and (max-width:480px) and (min-width:320px) {
   #home {

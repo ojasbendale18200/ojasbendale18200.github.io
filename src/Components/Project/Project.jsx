@@ -30,36 +30,60 @@ export default function Project({ colorMode }) {
       type: "Group",
       desc: "Its an online ecommerse platform which is an replica of india mart",
       techstack: ["ReactJs", "Chakra-Ui", "Redux", "Json-Server"],
-      github: "https://github.com/mak-1997/parsimonious-mouth-5256-",
+      github: "https://github.com/ojasbendale18200/Smart-Shop-",
       link: "https://smart-shop-alpha.vercel.app/",
     },
     {
-      name: "Instagram-clone",
-      img: "./images/instagram-clone.png",
-      type: "Individual",
-      desc: "Added Google-Auth Authentication to Login Or Logout, you can upload photos also i added like and comment functionality.",
-      techstack: ["NextJs", "Tailwind css", "Recoil", "Firebase"],
-      github: "https://github.com/ojasbendale18200/Instagram-clone",
-      link: "https://instagram-clone-pink-alpha.vercel.app/",
+      name: "Healthy-Way",
+      img: "./images/Healthyway.png",
+      type: "Group",
+      desc: "Healthyway is a website that functions as a nutrition tracking tool to help users reach their health goals by monitoring their daily caloric intake and other relevant factors.",
+      techstack: [
+        "ReactJs",
+        "ChakraUI",
+        "Redux",
+        "MongoDB",
+        "ExpressJS",
+        "ChartJS",
+      ],
+      github: "https://github.com/ojasbendale18200/Healthy-way",
+      link: "https://healty-way.vercel.app/",
     },
     {
-      name: "Google-Clone",
-      img: "./images/google-clone.png",
-      type: "Individual",
-      desc: "First Fetch the Data from Google and shown in UI , for Every Search used Custom Hook and for State Management used Context-API",
-      techstack: ["ReactJs", "ContextAPI", "Firebase", "GoogleAPI"],
-      github: "https://github.com/ojasbendale18200/google-clone",
-      link: "https://clo-a612f.web.app/",
+      name: "WordHunt",
+      img: "./images/wordHunt.png",
+      type: "Group",
+      desc: "Word-Hunt is basically single player as well as multiplayer game where user have to find specific words in given time",
+      techstack: [
+        "ReactJs",
+        "TypeScript",
+        "Nodejs",
+        "ExpressJs",
+        "webSocket",
+        "MongoDB",
+        "TailwindCss",
+      ],
+      github: "https://github.com/ojasbendale18200/Word-Hunt",
+      link: "https://word-hunt-indol.vercel.app/",
     },
     {
-      name: "Gym-exercises App",
-      img: "./images/gym-exercise.png",
+      name: "Cryptoverse",
+      img: "./images/cryptoverse.png",
       type: "Individual",
-      desc: "Here you can see the Exercises Details With GIfs and Youtube Videos",
+      desc: "Here you can get all the Details about the Cryptocurrency such as price and news with respect to perticular cryprocurrenct",
+      techstack: ["ReactJs", "RapidAPI", "Antd"],
+      github: "https://github.com/ojasbendale18200/Cryptoverse",
+      link: "https://cryptoverse-eta.vercel.app/",
+    },
 
-      techstack: ["ReactJs", "RapidAPI", "TailwindCss"],
-      github: "https://github.com/ojasbendale18200/Gym-ExercisesApp",
-      link: "https://gym-exercises-app-pink.vercel.app/",
+    {
+      name: "Travel Go",
+      img: "./images/travel-go.png",
+      type: "Individual",
+      desc: "Travel go is website that helps users to book hotels in sustainable price",
+      techstack: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/ojasbendale18200/offbeat-edge-8089",
+      link: "https://frabjous-hamster-391753.netlify.app/",
     },
   ];
 
@@ -144,10 +168,12 @@ export default function Project({ colorMode }) {
                         {project.desc}
                       </Text>
                       <Flex
+                        flexWrap={"wrap"}
                         className="project-tech-stack"
                         w={["100%", "90%", "90%"]}
                         textAlign={"left"}
                         m={"auto"}
+                        justify={"center"}
                       >
                         {/* <Text
                           className="project-tech-stack"
